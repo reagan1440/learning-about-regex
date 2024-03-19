@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Understanding Regular Expressions in JavaScript
 
-Introductory paragraph (replace this with your text)
+Regular expressions (regex) a combination of alphabets, numbers and special characters are powerful tools used for pattern matching and text manipulation in JavaScript. Throughtout this guide we will learn the basics of Regex and various components and concepts to help use regex more effeciently 
 
 ## Summary
 
