@@ -18,10 +18,17 @@ In this guide we will learn the basics of regular expressions in JavaScript and 
 - [Character Escapes](#character-escapes)
 
 ## Regex Components
-
-### Anchors
+## Anchors
+Anchors such as '^' and '&' match the position of text in a string, such as the start('^') or end ('&') of a line 
+// example: match a string with "hello"
+const regex = /^hello/;
+![Alt text](<images/Screenshot (12).png>)
 
 ### Quantifiers
+quantifiers like '*', '+', '?' and '{}' specify the number of occurrences of a charcter or group in a pattern.
+// example: match digits occurring 2 or 3 times
+const regex = /\d{2,3}/;
+![Alt text](<images/Screenshot (14).png>)
 
 ### Grouping Constructs
 
