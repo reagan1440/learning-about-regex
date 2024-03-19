@@ -31,8 +31,15 @@ const regex = /\d{2,3}/;
 ![Alt text](<images/Screenshot (14).png>)
 
 ### Grouping Constructs
+parentheses '()' create capture groups and allow you to apply quantifiers and other operations to a group of charcters
+// example: match words starting with either "hello" or "world"
+const regex = /(hello|world)\w+/;
+![Alt text](<images/Screenshot (15).png>)
 
 ### Bracket Expressions
+bracket expressions like '[...]' match a single charcter from a set of charcters.
+//example: match vowels in a string
+const regex = /[aeiou]/gi;
 
 ### Character Classes
 
