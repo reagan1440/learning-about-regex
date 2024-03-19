@@ -4,7 +4,7 @@ Regular expressions (regex) a combination of alphabets, numbers and special char
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In this guide we will learn the basics of regular expressions in JavaScript and explain components such as anchors, quantifiers, grouping constructs, bracket expressions, charcter classes, flags, and charcter escapes. Throught the lesson code snippets will be provided as well as explanations to help the ready apply regex in their code
 
 ## Table of Contents
 
