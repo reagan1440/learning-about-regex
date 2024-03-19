@@ -42,8 +42,15 @@ bracket expressions like '[...]' match a single charcter from a set of charcters
 const regex = /[aeiou]/gi;
 
 ### Character Classes
+character classes like '\d','\w', and '\s' match specific types of characters such as digiits, word charcters, and whitespace charcters respectively.
+// example: match a string containing at least one digit
+const regex = /\d+/;
+![Alt text](<images/Screenshot (16).png>)
 
 ### The OR Operator
+the '|' symbol acts as on OR operator, allowing you to match patters seperated by the symbol.
+// example: match "hello or "world"
+const regex = /hello|world/;
 
 ### Flags
 
